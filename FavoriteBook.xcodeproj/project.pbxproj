@@ -11,6 +11,8 @@
 		FB4B847528D5F27B006CC264 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4B847428D5F27B006CC264 /* ContentView.swift */; };
 		FB4B847728D5F27B006CC264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4B847628D5F27B006CC264 /* Assets.xcassets */; };
 		FB4B847A28D5F27B006CC264 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4B847928D5F27B006CC264 /* Preview Assets.xcassets */; };
+		FB4B848128D5F326006CC264 /* FavoriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4B848028D5F326006CC264 /* FavoriteModel.swift */; };
+		FB4B848328D72E32006CC264 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4B848228D72E32006CC264 /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		FB4B847428D5F27B006CC264 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB4B847628D5F27B006CC264 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB4B847928D5F27B006CC264 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB4B848028D5F326006CC264 /* FavoriteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteModel.swift; sourceTree = "<group>"; };
+		FB4B848228D72E32006CC264 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				FB4B847428D5F27B006CC264 /* ContentView.swift */,
 				FB4B847628D5F27B006CC264 /* Assets.xcassets */,
 				FB4B847828D5F27B006CC264 /* Preview Content */,
+				FB4B848028D5F326006CC264 /* FavoriteModel.swift */,
+				FB4B848228D72E32006CC264 /* DetailsView.swift */,
 			);
 			path = FavoriteBook;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB4B848128D5F326006CC264 /* FavoriteModel.swift in Sources */,
+				FB4B848328D72E32006CC264 /* DetailsView.swift in Sources */,
 				FB4B847528D5F27B006CC264 /* ContentView.swift in Sources */,
 				FB4B847328D5F27B006CC264 /* FavoriteBookApp.swift in Sources */,
 			);
